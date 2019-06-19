@@ -22,36 +22,6 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-   /* //public void Detect(View view){
-        //TextView tv=findViewById(R.id.show);
-        int flag=0;
-        String st=et.getText().toString();          //string entered by user.
-        char[] inputtedStringToChar = st.toCharArray();
-        //tv.setText(inputtedStringToChar[2]);          display string   ok
-        for (int i=0;i<st.length();i++)
-        {
-            int asciivalueofchar=(int)inputtedStringToChar[i];
-            if((asciivalueofchar>=97 && asciivalueofchar<=122) || (asciivalueofchar>=65 && asciivalueofchar<=90))
-            {
-                flag++;
-            }
-            else if(asciivalueofchar==32)
-                continue;
-            else
-            {
-                flag--;
-            }
-
-        }
-
-        if(flag>0)
-        {
-            tv.setText("it is a pangram");
-        }
-        else
-            tv.setText("it is not a pangram.");
-    }*/
-
     boolean checkPangram(String Strng){
         boolean[] mark= new boolean[26];
         int index=0;
