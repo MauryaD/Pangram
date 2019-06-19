@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello Folk!"
-        android:textSize="26dp"
+        android:textSize="30sp"
         android:layout_gravity="center"
         android:layout_marginTop="50dp"
          />
@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"
         android:hint="Enter a sentence here:"
         android:id="@+id/enter"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="25dp"
         android:layout_gravity="center"
         android:inputType="text"
         />
@@ -41,10 +41,9 @@
         android:id="@+id/show"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginHorizontal="10dp"
         android:layout_marginTop="122dp"
         android:hint="OUTPUT will be here!"
-        android:textSize="15dp" />
+        android:textSize="20sp" />
 
 
 
